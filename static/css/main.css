@@ -1,0 +1,72 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+#chessboard tr:nth-child(even) td:nth-child(odd) {
+    background-color: #F9F9F9;
+}
+
+#chessboard tr:nth-child(even) td:nth-child(even) {
+    background-color: #424B5C;
+}
+
+#chessboard tr:nth-child(odd) td:nth-child(even) {
+    background-color: #F9F9F9;
+}
+
+#chessboard tr:nth-child(odd) td:nth-child(odd) {
+    background-color: #424B5C;
+}
+
+#chessboard td {
+    width: 12.5%;
+    height: 12.5%;
+}
+
+#chessboard{
+	border-spacing: 0px;
+	margin: auto;
+	height: 100%;
+	width: 100%;
+}
+
+html, body, div.container{
+	height: 100%;
+	width: 100%;
+}
+
+.highlight-hover, .move-selected, .move-possible{
+	background-color: #166325 !important;
+}
+
+span.piece{
+	border-radius: 50%;
+	width: 30px;
+    height: 30px;
+    display: block;
+    cursor: pointer;
+/*    box-shadow: 26px 10px 5px 0px rgba(0,0,0,0.75); */
+}
+
+.black{
+	background-color: #1F1919;
+}
+
+.white{
+	background-color: #E4DAD8;
+}
+
+
+
+
+
+
+
+
+
